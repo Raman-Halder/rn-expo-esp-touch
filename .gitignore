@@ -1,2 +1,5 @@
 
 android/.gradle
+
+node_modules
+package-lock.json

@@ -2,10 +2,6 @@
 
 ESP Touch WiFi provisioning for Expo apps
 
-# API documentation
-
-- [Documentation for the main branch](https://github.com/expo/expo/blob/main/docs/pages/versions/unversioned/sdk/rn-esp-touch.md)
-- [Documentation for the latest stable release](https://docs.expo.dev/versions/latest/sdk/rn-esp-touch/)
 
 # Installation in managed Expo projects
 
@@ -20,16 +16,11 @@ For bare React Native projects, you must ensure that you have [installed and con
 ```
 npm install rn-expo-esp-touch
 ```
-
-### Configure for iOS
-
-Run `npx pod-install` after installing the npm package.
-
-
-### Configure for Android
-
-
+or
+```
+bunx expo install rn-expo-esp-touch
+```
 
 # Contributing
 
-Contributions are very welcome! Please refer to guidelines described in the [contributing guide]( https://github.com/expo/expo#contributing).
+Contributions are very welcome!

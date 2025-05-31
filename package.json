@@ -25,7 +25,6 @@
   ],
   "repository": "https://github.com/Raman-Halder/rn-expo-esp-touch",
   "author": "Raman Halder",
-  "license": "MIT",
   "dependencies": {
     "expo-location": "~16.0.0"
   },

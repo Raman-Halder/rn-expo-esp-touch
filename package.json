@@ -1,0 +1,40 @@
+{
+  "name": "rn-expo-esp-touch",
+  "version": "1.0.0",
+  "description": "ESP Touch WiFi provisioning for Expo apps",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "esptouch",
+    "wifi",
+    "iot",
+    "esp32",
+    "esp8266",
+    "provisioning"
+  ],
+  "repository": "https://github.com/Raman-Halder/rn-expo-esp-touch",
+  "author": "Raman Halder",
+  "license": "MIT",
+  "dependencies": {
+    "expo-location": "~16.0.0"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "expo-module-scripts": "^3.0.0"
+  }
+}
